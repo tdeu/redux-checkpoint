@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+  margin : 0px;
+  padding : 0px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  height : 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.todos{
+  display: flex;
+ 
+  padding : 3rem;
+}
+
+.todo{
+  width: 31%;
+}
+
+.icon{
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.done {
+  text-decoration: line-through;
+  text-decoration-color: red;
+
+}
+.unDone {
+  text-decoration: none;
+}
+
+
